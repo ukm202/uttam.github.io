@@ -418,12 +418,25 @@ li{
 
 
 
-/* footer{
+footer{
+  width: 100%;
+  color: #fff;
   background-color: black;
   text-align: center;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   /* border: 1px solid; */
+  font-family: sans-serif;
+  padding: 8px;
+  transform: translate(12%);
   /* color: #fff; */
   /* font-size: 50px; */
   /* position: static; */
-} */
+}
+footer span{
+  font-size: 25px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
